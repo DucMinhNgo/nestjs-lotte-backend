@@ -32,8 +32,8 @@ export class LotteService {
   }
 
   findAll() {
-    const elements = ['Bingo', 'Freeship', 'Fail'];
-    const probabilities = [0.01, 0.19, 0.8];
+    const elements = ['50%', '20%', 'Free ship', 'Fail'];
+    const probabilities = [0.001, 0.11, 0.09, 0.799];
 
     const selectedElement = this.selectRandomElementWithProbability(elements, probabilities);
 
